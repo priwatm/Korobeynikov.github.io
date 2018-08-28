@@ -1,0 +1,194 @@
+.section_header
+{width: 30%;
+    text-align: left;
+   
+    height: 320px;
+    float: left;
+    
+}
+.color1
+{
+    background: #fbfbfb;
+}
+.selection_content
+{
+    
+
+    width: 70%;
+    text-align:right;
+    height: 320px;
+    float: right;
+}
+.avatar_img
+{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.brand_titel_top
+{
+	padding-top: 80px;
+	text-align: left;
+	margin-left: 20px;
+}
+.brand_titel_down
+{
+	text-align: left;
+	margin-left: 20px;
+}
+.brand_titel-surname
+{
+	display: block;
+	font-size: 50px;
+}
+.brand_titel-name
+{
+	padding-top: 30px;
+	display: block;
+	font-size: 50px;
+	color: #F8BB10;
+}
+.brand_titel-profession
+{
+	padding-top: 30px;
+	display: block;
+	font-size: 35px;
+	position: absolute;
+	
+}
+.header_social-button
+{
+	
+	display:flex;
+	
+	margin-right: 20px;
+	float: right;
+	
+}
+
+.button_titel
+{
+	display: none;
+
+	
+}
+.header_down
+{
+	display:block;
+	margin-top: 80px;
+}
+
+ a.linkedin {
+	background-image: url(img/linkedin.png);
+}
+a.vk
+{
+	background-image: url(img/vk.png);
+}
+a.facebook
+{
+	background-image: url(img/facebook.png);
+}
+a.sb,
+.sb a {
+	width: 38px;
+	height: 38px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -900em;
+	color: #333;
+	
+	line-height: 100%;
+	white-space: nowrap;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	margin: 0 2px 5px 0;
+	
+	/* default button color */
+	background-color: #ededed;
+	border: solid 1px #ededed;
+	
+	/* default box shadow */
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 0 rgba(0,0,0,.1);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 0 rgba(0,0,0,.1);
+
+	/* default border radius */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 6px;
+	
+}
+/* default hover */
+a.sb:hover:after,
+.sb a:hover:after {
+	background-image: none;
+}
+a.sb:hover,
+.sb a:hover,
+a.sb:hover:after,
+.sb a:hover:after {
+	background-color: #F8BB10;
+}
+.heade_delimiter
+{
+	width: 850px;
+	    border-color: #ececec;
+	margin-bottom: 8px;
+	
+}
+
+.header_contact
+{ margin-left: 200px;
+	display:flex;
+	
+}
+.header_contact,.contact_phone
+{
+	width: 50%;
+	
+}
+.header_contact,.contact_email
+{
+	width: 50%;
+}
+.phone_name
+{
+	
+	font-size: 20px;
+	display: block;
+	text-align: left;
+	margin-bottom: 8px;
+}
+.phone_number
+{
+	
+	font-size: 25px;
+	display: block;
+		text-align: left;
+}
+.email_name
+{
+	font-size: 20px;
+	display: block;
+	text-align: left;
+	margin-bottom: 8px;
+}
+.email_adress
+{
+	font-size: 25px;
+	display: block;
+	text-align: left;
+	color:#939393;
+	
+}
+
+.email_adress:hover,
+.email_adress:hover:after,
+.email_adress a:hover:after {
+	color:#F8BB10;
+}
