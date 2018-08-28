@@ -6,7 +6,7 @@
     float: left;
     
 }
-.color1
+.colorfont
 {
     background: #fbfbfb;
 }
@@ -15,7 +15,7 @@
     
 
     width: 70%;
-    text-align:right;
+   
     height: 320px;
     float: right;
 }
@@ -64,7 +64,7 @@
 	
 	display:flex;
 	
-	margin-right: 20px;
+	margin-right: 25px;
 	float: right;
 	
 }
@@ -78,7 +78,7 @@
 .header_down
 {
 	display:block;
-	margin-top: 80px;
+	margin-top: 70px;
 }
 .header_top
 {
@@ -142,6 +142,7 @@ a.sb:hover:after,
 {
 	width: 850px;
 	    border-color: #ececec;
+	margin-top: 15px;
 	margin-bottom: 8px;
 	
 }
@@ -149,6 +150,7 @@ a.sb:hover:after,
 .header_contact
 { margin-left: 200px;
 	display:flex;
+	
 	
 }
 .header_contact,.contact_phone
@@ -260,4 +262,96 @@ a.sb:hover:after,
 	float: right;
 	margin: 80px 80px ;
 	font-size: 30px;
+}
+
+
+.time_line
+{
+	
+	border-left-width: 2px;
+    border-left-style: solid;
+    margin-left:  20px;
+    padding-left: 25px;
+    position: relative;
+	
+	
+}
+.line_start
+{
+	margin-top: 20px;
+}
+.time_line_item
+{
+	position: relative;
+}
+.time_line_point
+{
+	 height: 10px;
+    width: 10px;
+    position: absolute;
+    left: -31px;
+    
+    border-radius: 50%;
+	background: #F8BB10;
+}
+.time_content
+{
+	    
+    
+    position: relative;
+	    padding-bottom: 33px;
+}
+.time_content_left
+{
+	
+	padding-top: 20px;
+	
+	     
+ 
+}
+.time_content_right
+{
+	top: -50px;
+	width: 300px;
+	float: right;
+	position: relative;
+}
+.work_time
+{
+	    
+    font-size: 12px;
+	    font-weight: 500;
+	    
+			 
+}
+.job_name
+{
+	    font-size: 20px;
+    line-height: 1.45;
+}
+.job_specifyc
+{
+	    font-size: 15px;
+}
+
+.time_line_end {
+    height: 1px;
+    width: 16px;
+    position: absolute;
+    left: -9px;
+    bottom: 0;
+    border-width: 1px;
+    border-style: solid;
+	border-color: #F8BB10;
+	background: #F8BB10;
+}
+
+.portfolio_content
+{
+	margin: 40px 0 0 30px;
+}
+.portfolio_font
+{
+	font-size: 20px;
+	padding-bottom: 40px;
 }
