@@ -30,7 +30,7 @@
 }
 .brand_titel_top
 {
-	padding-top: 80px;
+	padding-top: 30px;
 	text-align: left;
 	margin-left: 20px;
 }
@@ -79,6 +79,10 @@
 {
 	display:block;
 	margin-top: 80px;
+}
+.header_top
+{
+	margin-top: 50px;
 }
 
  a.linkedin {
