@@ -278,7 +278,7 @@ a.sb:hover:after,
 }
 .line_start
 {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .time_line_item
 {
@@ -299,7 +299,7 @@ a.sb:hover:after,
 	    
     
     position: relative;
-	    padding-bottom: 33px;
+	    padding-bottom: 37px;
 }
 .time_content_left
 {
@@ -326,6 +326,7 @@ a.sb:hover:after,
 }
 .job_name
 {
+	  word-wrap: normal;
 	    font-size: 20px;
     line-height: 1.45;
 }
