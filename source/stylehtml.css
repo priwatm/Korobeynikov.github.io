@@ -274,10 +274,12 @@ a.sb:hover:after,
     position: relative;
 	
 	
+	
 }
 .line_start
 {
 	margin-top: 10px;
+	height: 310px;
 }
 .time_line_item
 {
@@ -298,23 +300,19 @@ a.sb:hover:after,
 	    
     
     position: relative;
-	    padding-bottom: 37px;
+	padding-bottom: 3px;
+	
 }
 .time_content_left
 {
-	
-	padding-top: 20px;
-	
+		padding-top: 10px;
+	width: 80%;
 	     
  
 }
-.time_content_right
-{
-	top: -50px;
-	width: 300px;
-	float: right;
-	position: relative;
+
 }
+
 .work_time
 {
 	    
@@ -331,7 +329,9 @@ a.sb:hover:after,
 }
 .job_specifyc
 {
-	    font-size: 13px;
+	    font-size: 15px;
+	
+	
 }
 
 .time_line_end {
