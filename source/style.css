@@ -74,6 +74,17 @@ p
 	text-decoration: none;
 	color:#939393;
 }
+
+@media only screen and (max-width : 480px) {
+    .job_name
+    {
+        font-size: 15px;
+    }
+    .job_specifyc
+{
+	    font-size: 13px;
+}
+}
 /* Header
 -----------------------------------------------------------------------------*/
 
