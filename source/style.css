@@ -74,8 +74,36 @@ p
 	text-decoration: none;
 	color:#939393;
 }
+ul.qa,
+/* Убираем стандартный вывод метки списка */
+.qa ul {
+    list-style-type: none;
+}
+li.qa,
+/* Нужно обязательно указать высоту строки и позиционирование */
+.qa ul li {
+    font-size: 18px;
+    line-height: 18px;
+    position: relative;
+}
 
-
+ul.qa::before,
+li.qa::before,
+.qa ul li::before {
+    color: #F8BB10;
+    /* UTF-8 escape sequence, соответствующая символу "Маркер списка" */
+    content:"\2022";
+    /* Делаем больше, чем основной текст в li */
+    font-size: 26px;
+    font-weight: 700;
+    /* Элемент вырван из потока, выравниваем отрицательным отступом */
+    left: -15px;
+    /* Высота строки и позиционирование необходимы для выравнивания по вертикали */
+    line-height: 25px;        
+    position: absolute;
+    top: 0;
+	
+}
 /* Header
 -----------------------------------------------------------------------------*/
 

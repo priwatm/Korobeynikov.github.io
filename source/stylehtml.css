@@ -42,6 +42,7 @@
 {
 	display: block;
 	font-size: 50px;
+	color: #F8BB10;
 }
 .brand_titel-name
 {
@@ -175,7 +176,9 @@ a.sb:hover:after,
 	font-size: 25px;
 	display: block;
 		text-align: left;
+	
 }
+
 .email_name
 {
 	font-size: 20px;
@@ -204,7 +207,7 @@ a.sb:hover:after,
 	
 	width: 350px; /* Full width */
     background-color: #ececec; /* Grey background */
-	border-radius: 5px;
+	
 }
 .skill_table
 {
@@ -259,8 +262,19 @@ a.sb:hover:after,
 .header_titel
 {
 	float: right;
-	margin: 80px 80px ;
+	margin-top: 80px;
+	margin-right: 80px;
 	font-size: 30px;
+	margin-bottom: 5px;
+	
+	
+}
+.header_titel_down
+{
+	float: right;
+	font-size: 30px;
+	margin-right: 80px;
+	
 }
 
 
@@ -311,7 +325,7 @@ a.sb:hover:after,
  
 }
 
-}
+
 
 .work_time
 {
@@ -348,10 +362,82 @@ a.sb:hover:after,
 
 .portfolio_content
 {
-	margin: 40px 0 0 30px;
+	margin: 30px 0 0 30px;
 }
 .portfolio_font
 {
 	font-size: 20px;
-	padding-bottom: 40px;
+	display: block;
+}
+.portfolio_specifyc
+{
+	width: 80%;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.portfolio_view
+{
+	padding-bottom: 30px;
+}
+
+.qualification_content
+{ margin-left: 30px;
+	margin-top: 50px;
+}
+.trening_content
+{
+	float: left;
+	width: 50%;
+}
+
+.course_content
+{
+	float: right;
+	position: relative;
+	width: 50%;
+}
+.qualification_font_head
+{
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.qualification_font
+{  
+	font-size: 20px;
+	margin-bottom: 10px;
+	display: block;
+	line-height: 22px;
+	
+}
+.qualification_view
+{
+	margin-left: 10px;
+	width: 90%;
+}
+.hoby_content
+{
+	width: 50%;
+	float: left;
+}
+.personalqualities_content
+{
+	width: 50%;
+	float: right;
+}
+.aboutme_content
+{
+	margin-left: 30px;
+	margin-top: 50px;
+
+}
+.social_networking_content
+{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.social_networking_font
+{
+	font-size: 25px;
+	margin-bottom: 25px;
 }
