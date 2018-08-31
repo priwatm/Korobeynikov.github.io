@@ -305,6 +305,7 @@ a.email_adress,
 {
 	 height: 10px;
     width: 10px;
+	margin-top: 4px;
     position: absolute;
     left: -31px;
     
@@ -316,7 +317,7 @@ a.email_adress,
 	    
     
     position: relative;
-	padding-bottom: 3px;
+	padding-bottom: 5px;
 	
 }
 .time_content_left
@@ -346,7 +347,6 @@ a.email_adress,
 .job_specifyc
 {
 	    font-size: 15px;
-	padding-bottom: 5px;
 	
 	
 }
