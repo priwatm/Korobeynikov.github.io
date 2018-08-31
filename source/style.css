@@ -65,9 +65,12 @@ body {
        min-height: 400px;
        margin: 50px auto 50px;
 }
+
 a
 {
-	text-decoration: none;
+	  text-decoration: none;
+  
+  
 }
 p
 {
