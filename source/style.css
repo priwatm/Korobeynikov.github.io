@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     color: #939393;
         font-size: 1rem;
-    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.75;
     height: 100%;
 }
@@ -61,9 +61,8 @@ body {
 
 .content
 {
-    width: 1300px;
-       min-height: 400px;
-       margin: 50px auto 50px;
+   
+	
 }
 
 a
@@ -106,6 +105,14 @@ li.qa::before,
     position: absolute;
     top: 0;
 	
+}
+
+main
+{
+	flex-wrap: wrap;
+	 width: 1300px;
+       min-height: 400px;
+       margin: 50px auto 50px;
 }
 /* Header
 -----------------------------------------------------------------------------*/
