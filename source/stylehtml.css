@@ -438,7 +438,7 @@ a.email_adress,
 
 .qualification_font_head {
     font-size: 25px;
-    margin-bottom: 10px;
+    padding-bottom: 5%;
 }
 
 .qualification_font {
@@ -450,7 +450,7 @@ a.email_adress,
 }
 
 .qualification_view {
-    margin-left: 10px;
+    margin-left: 3%;
     width: 90%;
 }
 
@@ -480,4 +480,8 @@ a.email_adress,
     margin-bottom: 25px;
     text-decoration: underline;
 
+}
+
+.qualifivation_list{
+    padding-bottom: 2%;
 }

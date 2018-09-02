@@ -76,22 +76,22 @@ p
 	text-decoration: none;
 	color:#939393;
 }
-ul.qa,
+ul.qualifivation_list,
 /* Убираем стандартный вывод метки списка */
-.qa ul {
+.qualifivation_list ul {
     list-style-type: none;
 }
-li.qa,
+li.qualifivation_list,
 /* Нужно обязательно указать высоту строки и позиционирование */
-.qa ul li {
+.qualifivation_list ul li {
     font-size: 18px;
     line-height: 18px;
     position: relative;
 }
 
-ul.qa::before,
-li.qa::before,
-.qa ul li::before {
+ul.qualifivation_list::before,
+li.qualifivation_list::before,
+.qualifivation_list ul li::before {
     color: #F8BB10;
     /* UTF-8 escape sequence, соответствующая символу "Маркер списка" */
     content:"\2022";
